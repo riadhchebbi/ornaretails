@@ -1,0 +1,131 @@
+*{
+	margin: 0px;
+	padding: 0px;	
+}
+li{
+	list-style-type: none;	
+}
+a{
+	text-decoration: none;	
+}
+#temp_holder {
+    background: #163039 url("bg.png") repeat-x scroll 0 0;
+    padding-top: 1%;
+}
+.wrapper{
+    background-color: #fff;
+	color: #163039;
+    margin: 0 auto;
+    max-width: 860px;
+    overflow: hidden;
+    width: 100%;
+}
+.logo {
+    margin-top: 2%;
+    text-align: center;
+}
+nav {
+    background: rgba(0, 0, 0, 0) url("mbg.png") no-repeat scroll 0 5px / 100% auto;
+    margin-top: 1%;
+}
+nav ul {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 90%;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    color: #163039;
+    display: block;
+    font-size: 16px;
+    padding: 22px 27px;
+    text-transform: uppercase;
+    transition-duration: 1s;
+}
+nav ul li a:hover {
+    background-color: #163039;
+    color: #fff;
+}
+.after-nav {
+    margin-top: 2%;
+}
+.titlt {
+    margin-top: 2%;
+}
+.titlt h2 {
+    background-color: #68b9c1;
+    color: #fff;
+    font-size: 26px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: capitalize;
+}
+.p-img {
+    padding-top: 1%;
+    text-align: center;
+}
+.p-img > img {
+    border: 3px solid #68b9c1;
+    border-radius: 10px;
+    max-height: 400px;
+}
+.des{
+	padding-top: 2%;
+}
+.des > h2 {
+    background-color: #68b9c1;
+    color: #fff;
+    padding-left: 1%;
+}
+.des_content {
+    padding: 1%;
+	border: 2px solid #68b9c1;
+	border-top: 0px;
+}
+.des_content > ul {
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.des_content ul li {
+    list-style-type: inherit;
+}
+.tabs {
+    margin: 2% auto;
+    width: 100%;
+}
+.tabs section {
+    border: 2px solid #68b9c1;
+    display: none;
+    padding: 1%;
+}
+.tabs input {
+  display: none;
+}
+.tabs label {
+    background-color: #68b9c1;
+    border: 1px solid transparent;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    margin: 0 0 -1px;
+    padding: 15px 45.2px;
+    text-align: center;
+}
+.tabs label:hover {
+	opacity: 0.6;
+  cursor: pointer;
+}
+.tabs input:checked + label {
+  color: #000;
+  border: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
+  display: block;
+}
